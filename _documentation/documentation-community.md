@@ -31,4 +31,8 @@ cd my-project
 manim -pql main.py CreateCircle
 ```
 
-
+```bash
+-p          # preview after render
+-ql         # low quality fast
+manim -pql uniform_convergence/main.py uniform_convergence --format gif --transparent
+```
